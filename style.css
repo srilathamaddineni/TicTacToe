@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.row{
+    text-align:center;
+    white-space: nowrap;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+   display:inline-block;
+   white-space: nowrap;
+    width:70px;
+    height:70px; 
+    border: 1px solid black;
+    cursor: pointer;
+    justify-content: center;
+}
+.box p{
+    font-size: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold ;    
+}
